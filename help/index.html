@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="icon" type="image/png" href="/images/logo_54vie_2025.png"/>
+<link rel="apple-touch-icon" href="/images/logo_54vie_2025.png"/>
+<title>54Vie - Giá đề xuất từ bạn</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<style>
+  html, body { margin: 0; padding: 0; min-height: 100%; background: #FFFFFF; font-family: Inter, -apple-system, system-ui, sans-serif; }
+  #root { min-height: 100vh; }
+  * { box-sizing: border-box; }
+  input::placeholder, textarea::placeholder { color: #B6BDB8; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<!-- React + Babel CDN -->
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+
+<!-- Brand tokens — load đầu tiên -->
+<script type="text/babel" src="/_brand.jsx"></script>
+
+<!-- Main shell (Container, Header, Footer, Homepage) -->
+<script type="text/babel" src="/_main.jsx"></script>
+
+<!-- Shared sub-page components (HomePageShell, SubPageHero, LongFormPage) -->
+<script type="text/babel" src="/_shared.jsx"></script>
+
+<!-- Sections (homepage main) -->
+<script type="text/babel" src="/hero.jsx"></script>
+<script type="text/babel" src="/services.jsx"></script>
+<script type="text/babel" src="/why.jsx"></script>
+<script type="text/babel" src="/driver.jsx"></script>
+
+<!-- Sub-pages -->
+<script type="text/babel" src="/help.jsx"></script>
+<script type="text/babel" src="/safety.jsx"></script>
+<script type="text/babel" src="/terms.jsx"></script>
+<script type="text/babel" src="/privacy.jsx"></script>
+<script type="text/babel" src="/b2b.jsx"></script>
+
+<!-- App router (load CUỐI) -->
+<script type="text/babel" src="/_root.jsx"></script>
+
+<script type="text/babel">
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(<App/>);
+</script>
+</body>
+</html>
