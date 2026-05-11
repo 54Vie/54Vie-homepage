@@ -18,11 +18,11 @@ window.HomeContainer = HomeContainer;
 function HomeHeader() {
   const [menuOpen, setMenuOpen] = React.useState(false);
   const NAV = [
-    { label: 'Dịch vụ',       href: '/#services' },
-    { label: 'Tài xế',        href: '/#driver' },
-    { label: 'Vì sao 54Vie',  href: '/#why' },
-    { label: 'Tải app',       href: '/#download' },
-    { label: 'Hỗ trợ',        href: '/help/' },
+    { label: 'Dịch vụ',       href: '#services' },
+    { label: 'Tài xế',        href: '#driver' },
+    { label: 'Vì sao 54Vie',  href: '#why' },
+    { label: 'Tải app',       href: '#download' },
+    { label: 'Hỗ trợ',        href: 'help/' },
   ];
   return (
     <header style={{
@@ -35,8 +35,8 @@ function HomeHeader() {
       <HomeContainer style={{
         height: 72, display: 'flex', alignItems: 'center', justifyContent: 'space-between',
       }}>
-        <a href="/" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
-          <img src="/images/logo_54vie_2025.png" alt="54Vie" style={{
+        <a href="./" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
+          <img src="images/logo_54vie_2025.png" alt="54Vie" style={{
             width: 36, height: 36, objectFit: 'contain',
             border: `1.5px solid ${BRAND.ink}`, borderRadius: 8, padding: 2, background: BRAND.white,
           }}/>
@@ -107,9 +107,9 @@ function HomeFooter() {
     {
       title: 'Sản phẩm',
       items: [
-        { label: 'Đặt xe', href: '/#services' },
-        { label: 'Gửi hàng', href: '/#services' },
-        { label: 'Tài xế đối tác', href: '/#driver' },
+        { label: 'Đặt xe', href: '#services' },
+        { label: 'Gửi hàng', href: '#services' },
+        { label: 'Tài xế đối tác', href: '#driver' },
       ],
     },
     {
@@ -123,10 +123,10 @@ function HomeFooter() {
     {
       title: 'Hỗ trợ',
       items: [
-        { label: 'Trung tâm trợ giúp', href: '/help/' },
-        { label: 'An toàn', href: '/safety/' },
-        { label: 'Điều khoản', href: '/terms/' },
-        { label: 'Chính sách bảo mật', href: '/privacy/' },
+        { label: 'Trung tâm trợ giúp', href: 'help/' },
+        { label: 'An toàn', href: 'safety/' },
+        { label: 'Điều khoản', href: 'terms/' },
+        { label: 'Chính sách bảo mật', href: 'privacy/' },
       ],
     },
   ];
@@ -141,7 +141,7 @@ function HomeFooter() {
         }}>
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 18 }}>
-              <img src="/images/logo_54vie_2025.png" alt="54Vie" style={{
+              <img src="images/logo_54vie_2025.png" alt="54Vie" style={{
                 width: 40, height: 40, objectFit: 'contain',
                 border: `1.5px solid ${BRAND.ink}`, borderRadius: 8, padding: 2, background: BRAND.white,
               }}/>

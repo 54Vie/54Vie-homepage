@@ -151,7 +151,7 @@ function HomeHero() {
 
               {/* Hero logo in phone */}
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 32 }}>
-                <img src="/images/logo_1024px.png" alt="" style={{ width: 96, height: 96, objectFit: 'contain' }}/>
+                <img src="images/logo_1024px.png" alt="" style={{ width: 96, height: 96, objectFit: 'contain' }}/>
                 <div style={{ fontSize: 28, fontWeight: 900, color: BRAND.ink, letterSpacing: -0.8, marginTop: 8 }}>
                   54<span style={{ color: BRAND.green }}>Vie</span>
                 </div>

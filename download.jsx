@@ -92,7 +92,7 @@ function HomeDownload() {
                 {/* logo center */}
                 <rect x="40" y="40" width="20" height="20" fill={BRAND.white}/>
               </svg>
-              <img src="/images/logo_1024px.png" alt="54Vie" style={{
+              <img src="images/logo_1024px.png" alt="54Vie" style={{
                 position: 'absolute', width: 36, height: 36, objectFit: 'contain',
                 background: BRAND.white, padding: 2, borderRadius: 6,
               }}/>

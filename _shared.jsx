@@ -71,7 +71,7 @@ function SubPageHero({ kicker, title, subtitle }) {
       borderBottom: `1px solid ${BRAND.line}`,
     }}>
       <HomeContainer>
-        <a href="/" style={{
+        <a href="./" style={{
           fontSize: 13, fontWeight: 700, color: BRAND.green, textDecoration: 'none',
           display: 'inline-flex', alignItems: 'center', gap: 6, marginBottom: 16,
         }}>
