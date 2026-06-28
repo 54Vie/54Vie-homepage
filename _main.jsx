@@ -127,6 +127,7 @@ function HomeFooter() {
         { label: 'An toàn', href: 'safety/' },
         { label: 'Điều khoản', href: 'terms/' },
         { label: 'Chính sách bảo mật', href: 'privacy/' },
+        { label: 'Quy chế hoạt động', href: 'quy-che/' },
       ],
     },
   ];
