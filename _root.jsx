@@ -7,6 +7,7 @@ function App() {
   if (path.indexOf('/safety') !== -1)  return <SafetyPage/>;
   if (path.indexOf('/terms') !== -1)   return <TermsPage/>;
   if (path.indexOf('/privacy') !== -1) return <PrivacyPage/>;
+  if (path.indexOf('/quy-che') !== -1) return <QuyChePage/>;
   if (path.indexOf('/b2b') !== -1)     return <B2BPage/>;
   return <Homepage/>;
 }
